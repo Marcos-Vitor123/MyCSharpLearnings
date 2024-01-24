@@ -10,7 +10,7 @@ namespace Classroom
 
            Console.WriteLine(resultado);
         }
-        static int Subtrair(int a, int b)
+        static int Subtrair(int a, int b) // Chamando função fora do main, acrescenta static
         {
             return a - b;
         }
