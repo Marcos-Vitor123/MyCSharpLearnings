@@ -8,7 +8,7 @@ namespace Classroom
         {
             int resultado = Soma(2, 3);
 
-            int Soma(int a, int b)
+            static int Soma(int a, int b)
             {
                 return a + b;
             }
