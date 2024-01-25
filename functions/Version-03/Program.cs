@@ -9,8 +9,8 @@ namespace Classroom
             int resultado = Multiplicar(4, 6);
 
             Console.WriteLine(resultado);
-            
-            int Multiplicar(int a, int b)
+
+            static int Multiplicar(int a, int b)
             {
                 return a * b;
             }
