@@ -16,8 +16,8 @@ namespace Classroom
 
     class Pessoa 
     {
-        public string Name { get; set; }
-        public int Age { get; set; }
+        public string Name;
+        public int Age;
         public Pessoa(string name, int age)
         {
             Name = name;
