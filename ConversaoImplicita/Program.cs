@@ -16,7 +16,7 @@ namespace ConversaoImplicita
             Console.WriteLine(caractere);
 
             int valorInt = caractere;
-            Console.WriteLine(valorInteiro);
+            Console.WriteLine(valorInt);
         }
     }
 }
