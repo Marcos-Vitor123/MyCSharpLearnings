@@ -20,6 +20,11 @@ namespace Classroom
             Console.WriteLine(caractere);
             int codigoASCII = (int)caractere;
             Console.WriteLine(codigoASCII);
+
+            int numeroInteiro3 = 42;
+            Console.WriteLine(numeroInteiro3);
+            string textoNumero = numeroInteiro3.ToString();
+            Console.WriteLine(textoNumero);
         }
     }
 }
