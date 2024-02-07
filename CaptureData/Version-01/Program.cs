@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Classroom 
+namespace CaptureData
 {
     internal class Program
     {

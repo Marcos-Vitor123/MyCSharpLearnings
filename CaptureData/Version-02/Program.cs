@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Classroom 
+namespace CaptureData
 {
     internal class Program
     {
@@ -8,7 +8,7 @@ namespace Classroom
         {
             Console.Write("Digite um número: ");
 
-            int capturar = Convert.ToInt32(Console.ReadLine()); // Coversão para inteiro, pois é padrão gerar string
+            int capturar = Convert.ToInt32(Console.ReadLine()); // Conversão para inteiro, pois é padrão gerar string
 
             Console.WriteLine($"O número é: {capturar}");
 
