@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Animal
+namespace Classes
 {
     internal class Program
     {

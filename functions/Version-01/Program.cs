@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Classroom 
+namespace Functions 
 {
     internal class Program
     {

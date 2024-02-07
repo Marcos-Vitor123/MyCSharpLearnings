@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Classroom 
+namespace Switch 
 {
     internal class Program
     {

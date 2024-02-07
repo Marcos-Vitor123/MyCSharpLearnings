@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Classroom 
+namespace While 
 {
     internal class Program
     {

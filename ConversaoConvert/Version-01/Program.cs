@@ -2,7 +2,7 @@
 
 namespace ConversaoConvert
 {
-    internal class Programa
+    internal class Program
     {
         private static void Main(string[] args)
         {
