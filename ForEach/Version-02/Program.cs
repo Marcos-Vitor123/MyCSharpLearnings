@@ -12,10 +12,8 @@ namespace forEach
 
             foreach (string fruta in frutas)
             {
-                for (int i = 0; i < 1; i++)
-                {
-                    contador++;
-                }
+                contador++;
+
                 Console.WriteLine($"{contador}° {fruta}");
             }
         }
