@@ -6,11 +6,12 @@ namespace forEach
     {
         private static void Main(string[] args)
         {
-            List<string> frutas = new() {"Maça", "Banana", "Abacaxi", "Pêra"};
+            List<string> frutas = ["Maça", "Banana", "Abacaxi", "Pêra"];
+
             foreach (string fruta in frutas)
             {
-                Console.WriteLine(fruta);
+                Console.WriteLine($"{fruta}");
             }
         }
-    }
+    } 
 }
