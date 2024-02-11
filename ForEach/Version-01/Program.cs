@@ -6,7 +6,7 @@ namespace forEach
     {
         private static void Main(string[] args)
         {
-            List<string> frutas = ["Maça", "Banana", "Abacaxi", "Pêra"];
+            List<string> frutas = new List<string>() {"Maça", "Banana", "Abacaxi", "Pêra"}; // Forma antiga
 
             foreach (string fruta in frutas)
             {
