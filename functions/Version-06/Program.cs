@@ -9,9 +9,9 @@ namespace Functions
             while (true)
             {
                 Console.Write("Digite qualquer tecla direcional (ou 'S' para sair): ");
-                ConsoleKeyInfo keyInfo = Console.ReadKey();
+                ConsoleKeyInfo keyInfo = Console.ReadKey(); // É armazenado na variável do tipo estrutura "ConsoleKeyInfo", informações do teclado
 
-                if (keyInfo.Key == ConsoleKey.UpArrow)
+                if (keyInfo.Key == ConsoleKey.UpArrow) // A propriedade "Key" da estrutura "ConsoleKeyInfo", verifica qual tecla foi pressionada
                     Console.WriteLine("Para cima");
                 else if (keyInfo.Key == ConsoleKey.DownArrow)
                     Console.WriteLine("Para Baixo");
