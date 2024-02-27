@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace forEach
+namespace Foreach
 {
     internal class Program
     {
