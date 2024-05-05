@@ -8,11 +8,13 @@ namespace Strings
         {
             string myFirstFriend = "             Marcos          ";
             string mySecondFriend = "       Maria                 ";
+            string myThrirdFriend = "       João                  ";
 
             myFirstFriend = myFirstFriend.TrimStart();
             mySecondFriend = mySecondFriend.Trim();
+            myThrirdFriend = myThrirdFriend.TrimEnd();
 
-            Console.WriteLine($"{myFirstFriend} and {mySecondFriend}");
+            Console.WriteLine($"{myFirstFriend} and {mySecondFriend} and {myThrirdFriend}");
         }
     }
 }
