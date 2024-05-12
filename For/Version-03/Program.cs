@@ -8,7 +8,7 @@ namespace For
         {
             for (int i = 10; i >= 1; i--)
             {
-                Console.WriteLine($"Número: {i}");
+                Console.WriteLine($"*************");
             }
         }
     }
