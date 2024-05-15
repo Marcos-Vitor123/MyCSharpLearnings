@@ -6,7 +6,7 @@ namespace For
     {
         public static void Main(string[] args)
         {
-            string asteristico = "*";
+            string asteristico = "*                            *";
             Console.WriteLine($"******************************");
             for (int i = 10; i >= 1; i--)
             {
