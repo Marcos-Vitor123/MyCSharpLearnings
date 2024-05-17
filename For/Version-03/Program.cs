@@ -8,30 +8,19 @@ namespace For
         {
             string asteristico = "*";
 
-            int m = 0;
-            while (m < 31)
-            {
-                Console.WriteLine($"{asteristico}");
-                m++;
-            }
-
             for (int i = 10; i >= 1; i--)
             {
-                int n = 0;
-                while (n < 29)
+                for (int m = 0; m <= 11; m++)
                 {
-                    //Console.WriteLine($"{asteristico}");
+                    Console.WriteLine($"{asteristico}");
                     Console.Write(" ");
-                    //Console.WriteLine($"{asteristico}");
-                    n++;
                 }
-            }
 
-            int o = 0;
-            while (o < 31)
-            {
-                Console.WriteLine($"{asteristico}");
-                o++;
+
+                for (int n = 0; n <= 11; n++)
+                {
+                    Console.WriteLine($"{asteristico}");
+                }
             }
         }
     }
