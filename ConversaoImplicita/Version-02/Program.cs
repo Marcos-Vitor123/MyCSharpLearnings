@@ -6,20 +6,28 @@ namespace ConversaoImplicita
     {
         private static void Main(string[] args)
         {
-            sbyte n1 = 123;
-            Console.WriteLine(n1);
-            short n1n2 = n1; // Conversão Implícita
-            Console.WriteLine(n1n2);
+            sbyte sbyteSinalNegativo = -128; // Assinado de 8 bits
+            sbyte sbyteSinalPositivo = 127; 
+            Console.WriteLine(sbyteSinalNegativo);
+            Console.WriteLine(sbyteSinalPositivo);
 
-            short n2 = 12345;
-            Console.WriteLine(n2);
-            int n2n3 = n2; // Conversão Implícita
-            Console.WriteLine(n2n3);
+            short sbyteSinalNegativoParaShort = sbyteSinalNegativo; // Conversão Implícita
+            short sbyteSinalPositivoParaShort = sbyteSinalPositivo; 
+            Console.WriteLine(sbyteSinalNegativoParaShort);
+            Console.WriteLine(sbyteSinalPositivoParaShort);
 
-            int n3 = 1234567890;
-            Console.WriteLine(n3);
-            long n3n4 = n3; // Conversão Implícita
-            Console.WriteLine(n3n4);
+            short shortSinalNegativo = -32768; // Assinado de 16 bits
+            short shortSinalPositivo = 32767;
+            Console.WriteLine(shortSinalNegativo);
+            Console.WriteLine(shortSinalPositivo);
+
+            //int n2n3 = n2; // Conversão Implícita
+            //Console.WriteLine(n2n3);
+
+            //int n3 = 1234567890;
+            //Console.WriteLine(n3);
+            //long n3n4 = n3; // Conversão Implícita
+            //Console.WriteLine(n3n4);
 
             //long numerosCurtoParaLongo = numerosCurto; // Conversão Implícita
             //int numerosLongoParaCurto = (int)numerosCurtoParaLongo; // Conversão Explícita
